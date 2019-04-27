@@ -65,6 +65,43 @@ template {
   display: none;
 }
 
+#resume-left {
+  float: left;
+  width: 30%;
+}
+#resume-left h4 {
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.resume-links i {
+  font-size: 30px;
+  margin-left: 70px;
+}
+.resume-links a {
+  text-decoration: none;
+}
+.resume-links a:hover {
+  color: #465acb;
+}
+#resume-right {
+  float: right;
+  width: 65%;
+  padding-left: 10%; 
+}
+#resume-right #resumepdf {
+  width: 80%;
+  height: 100%;
+  margin-right: 5px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
 /* Links
    ========================================================================== */
 /**
