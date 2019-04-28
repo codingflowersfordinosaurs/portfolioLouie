@@ -64,7 +64,14 @@ audio:not([controls]) {
 template {
   display: none;
 }
-
+.interweb-links {
+  display: inline-block;
+  font-size: 17px;
+  letter-spacing: 20px;
+}
+.interweb-links a{
+  text-decoration: none;
+}
 #resume-left {
   float: left;
   width: 30%;
